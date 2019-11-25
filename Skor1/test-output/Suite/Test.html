@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jan 17 23:49:26 EST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>1136 seconds (1136121 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pdppage.AddtoCart.AddtoCart()'><b>AddtoCart</b><br>Test class: pdppage.AddtoCart</td>
+<td></td>
+<td>33</td>
+<td>pdppage.AddtoCart@36b4cef0</td></tr>
+<tr>
+<td title='Checkout.CancelCheckout.CancelCheckout()'><b>CancelCheckout</b><br>Test class: Checkout.CancelCheckout</td>
+<td></td>
+<td>34</td>
+<td>Checkout.CancelCheckout@3e57cd70</td></tr>
+<tr>
+<td title='Cart.CartHeaderFooter.CartHeaderFooter()'><b>CartHeaderFooter</b><br>Test class: Cart.CartHeaderFooter</td>
+<td></td>
+<td>51</td>
+<td>Cart.CartHeaderFooter@1d8d30f7</td></tr>
+<tr>
+<td title='homepage.CartLink.CartLink()'><b>CartLink</b><br>Test class: homepage.CartLink</td>
+<td></td>
+<td>3</td>
+<td>homepage.CartLink@51e2adc7</td></tr>
+<tr>
+<td title='Checkout.CheckoutProcess.CheckoutProcess()'><b>CheckoutProcess</b><br>Test class: Checkout.CheckoutProcess</td>
+<td></td>
+<td>103</td>
+<td>Checkout.CheckoutProcess@9a7504c</td></tr>
+<tr>
+<td title='plppage.Filterplppage.Filterplplist()'><b>Filterplplist</b><br>Test class: plppage.Filterplppage</td>
+<td></td>
+<td>26</td>
+<td>plppage.Filterplppage@631330c</td></tr>
+<tr>
+<td title='homepage.FooterLink.FooterLink()'><b>FooterLink</b><br>Test class: homepage.FooterLink</td>
+<td></td>
+<td>7</td>
+<td>homepage.FooterLink@6f195bc3</td></tr>
+<tr>
+<td title='pdppage.PdpDetails.PdpDetails()'><b>PdpDetails</b><br>Test class: pdppage.PdpDetails</td>
+<td></td>
+<td>34</td>
+<td>pdppage.PdpDetails@fad74ee</td></tr>
+<tr>
+<td title='pdppage.PdpHeaderFooter.PdpHeaderFooter()'><b>PdpHeaderFooter</b><br>Test class: pdppage.PdpHeaderFooter</td>
+<td></td>
+<td>34</td>
+<td>pdppage.PdpHeaderFooter@37d31475</td></tr>
+<tr>
+<td title='pdppage.PdptopMenu.PdptopMenu()'><b>PdptopMenu</b><br>Test class: pdppage.PdptopMenu</td>
+<td></td>
+<td>25</td>
+<td>pdppage.PdptopMenu@1a1d6a08</td></tr>
+<tr>
+<td title='plppage.PlpHeaderFooter.PlpHeaderFooter()'><b>PlpHeaderFooter</b><br>Test class: plppage.PlpHeaderFooter</td>
+<td></td>
+<td>30</td>
+<td>plppage.PlpHeaderFooter@42f93a98</td></tr>
+<tr>
+<td title='plppage.PlpProductList.PlpProductList()'><b>PlpProductList</b><br>Test class: plppage.PlpProductList</td>
+<td></td>
+<td>17</td>
+<td>plppage.PlpProductList@c46bcd4</td></tr>
+<tr>
+<td title='homepage.Searchbox.Searchbox()'><b>Searchbox</b><br>Test class: homepage.Searchbox</td>
+<td></td>
+<td>14</td>
+<td>homepage.Searchbox@1a8a8f7c</td></tr>
+<tr>
+<td title='homepage.SigninLink.SigninLink()'><b>SigninLink</b><br>Test class: homepage.SigninLink</td>
+<td></td>
+<td>5</td>
+<td>homepage.SigninLink@2353b3e6</td></tr>
+<tr>
+<td title='plppage.Sorting.Sorting()'><b>Sorting</b><br>Test class: plppage.Sorting</td>
+<td></td>
+<td>26</td>
+<td>plppage.Sorting@3234e239</td></tr>
+<tr>
+<td title='pdppage.ProductimageTest.Wishlist()'><b>Wishlist</b><br>Test class: pdppage.ProductimageTest</td>
+<td></td>
+<td>26</td>
+<td>pdppage.ProductimageTest@3d921e20</td></tr>
+<tr>
+<td title='pdppage.Wishlist.Wishlist()'><b>Wishlist</b><br>Test class: pdppage.Wishlist</td>
+<td></td>
+<td>48</td>
+<td>pdppage.Wishlist@27808f31</td></tr>
+<tr>
+<td title='homepage.HeaderFooter.headerfooter()'><b>headerfooter</b><br>Test class: homepage.HeaderFooter</td>
+<td></td>
+<td>4</td>
+<td>homepage.HeaderFooter@7a187f14</td></tr>
+<tr>
+<td title='Cart.CheckoutButton.updatecart()'><b>updatecart</b><br>Test class: Cart.CheckoutButton</td>
+<td></td>
+<td>41</td>
+<td>Cart.CheckoutButton@436e852b</td></tr>
+<tr>
+<td title='Cart.UpdateCart.updatecart()'><b>updatecart</b><br>Test class: Cart.UpdateCart</td>
+<td></td>
+<td>63</td>
+<td>Cart.UpdateCart@32d2fa64</td></tr>
+</table><p>
+</body>
+</html>

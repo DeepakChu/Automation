@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="homepage.HeaderFooter" />
+			<class name="homepage.FooterLink" />
+			<class name="homepage.CartLink" />
+			<class name="homepage.Searchbox" />
+			<class name="homepage.SigninLink" />
+			<class name="plppage.Filterplppage" />
+			<class name="plppage.PlpHeaderFooter" />
+			<class name="plppage.PlpProductList" />
+			<class name="plppage.Sorting" />
+			<class name="pdppage.ProductimageTest" />
+			<class name="pdppage.AddtoCart" />
+			<class name="pdppage.PdpDetails" />
+			<class name="pdppage.PdptopMenu" />
+			<class name="pdppage.PdpHeaderFooter" />
+			<class name="pdppage.Wishlist" />
+			<class name="Cart.CheckoutButton" />
+			<class name="Cart.UpdateCart" />
+			<class name="Cart.CartHeaderFooter" />
+			<class name="Checkout.CancelCheckout" />
+			<class name="Checkout.CheckoutProcess" />
+
+
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
