@@ -23,7 +23,7 @@ public class HeaderFooter {
 	
 
 	@BeforeClass
-	public void Loginpage() {
+	public void LoginPage() {
 
 		driver = Config.chromePath();
 		driver.get("https://dev-delhi.skorpoints.com/challenge_management/completed/");
